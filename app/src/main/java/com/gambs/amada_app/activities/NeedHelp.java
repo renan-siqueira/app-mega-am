@@ -1,0 +1,29 @@
+package com.gambs.amada_app.activities;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+import com.gambs.amada_app.R;
+
+public class NeedHelp extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_need_help);
+    }
+
+    public void returnHome(View view) {
+        startActivity(new Intent(this, HomeActivity.class));
+    }
+
+    public void accessHowToUse(View view) {
+        startActivity(new Intent(this, HowToUse.class));
+    }
+
+
+
+}

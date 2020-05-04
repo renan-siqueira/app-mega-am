@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gambs.amada_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.HowToUse"></activity>
+        <activity android:name=".activities.PickUpStore" />
+        <activity android:name=".activities.PayStore" />
+        <activity android:name=".activities.Offers" />
+        <activity android:name=".activities.TalkEmployee" />
+        <activity android:name=".activities.ProductsInfo" />
+        <activity android:name=".activities.NeedHelp" />
+        <activity android:name=".activities.ScanCheckpoint" />
+        <activity android:name=".activities.SearchStoreActivity" />
+        <activity android:name=".activities.LocaleActivity" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.MainAccess" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
