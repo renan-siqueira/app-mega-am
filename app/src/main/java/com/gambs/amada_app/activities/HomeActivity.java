@@ -25,7 +25,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void accessProductsInfo(View view) {
-        startActivity(new Intent(this, ProductsInfo.class));
+        startActivity(new Intent(this, SearchProducts.class));
     }
 
     public void accessTalkEmployee(View view) {
@@ -41,6 +41,6 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void accessPickUpStore(View view) {
-        startActivity(new Intent(this, PickUpStore.class));
+        startActivity(new Intent(this, Offers.class));
     }
 }

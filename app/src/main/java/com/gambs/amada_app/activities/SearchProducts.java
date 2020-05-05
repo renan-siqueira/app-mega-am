@@ -8,12 +8,20 @@ import android.view.View;
 
 import com.gambs.amada_app.R;
 
-public class HowToUse extends AppCompatActivity {
+public class SearchProducts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_how_to_use);
+        setContentView(R.layout.activity_search_products);
+    }
+
+    public void accessProductList(View view) {
+        startActivity(new Intent(this, ProductList.class));
+    }
+
+    public void accessHowToUse(View view) {
+        startActivity(new Intent(this, HowToUse.class));
     }
 
     public void returnHome(View view) {

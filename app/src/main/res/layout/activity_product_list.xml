@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/productlist_bg"
+    tools:context=".activities.ProductList">
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#00000000"
+        android:onClick="accessPayStore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#00000000"
+        android:onClick="accessInfoProduct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button45" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:onClick="returnSearchProducts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="#00000000"
+        android:onClick="returnHome"
+        app:layout_constraintEnd_toStartOf="@+id/button51"
+        app:layout_constraintStart_toEndOf="@+id/button49"
+        app:layout_constraintTop_toTopOf="@+id/button49" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button49" />
+</androidx.constraintlayout.widget.ConstraintLayout>

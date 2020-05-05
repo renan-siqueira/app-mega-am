@@ -5,39 +5,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/offers_bg"
-    tools:context=".activities.Offers">
+    android:background="@drawable/faq_bg"
+    tools:context=".activities.PerguntasFrequentes">
 
     <Button
-        android:id="@+id/button39"
+        android:id="@+id/button26"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="10dp"
         android:background="#00000000"
-        android:onClick="returnHome"
+        android:onClick="returnTalkEmployee"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button40"
+        android:id="@+id/button27"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:background="#00000000"
         android:onClick="returnHome"
-        app:layout_constraintEnd_toStartOf="@+id/button41"
-        app:layout_constraintStart_toEndOf="@+id/button39"
-        app:layout_constraintTop_toTopOf="@+id/button39" />
+        app:layout_constraintEnd_toStartOf="@+id/button28"
+        app:layout_constraintStart_toEndOf="@+id/button26"
+        app:layout_constraintTop_toTopOf="@+id/button26" />
 
     <Button
-        android:id="@+id/button41"
+        android:id="@+id/button28"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
         android:background="#00000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button39" />
-
+        app:layout_constraintTop_toTopOf="@+id/button26" />
 </androidx.constraintlayout.widget.ConstraintLayout>
