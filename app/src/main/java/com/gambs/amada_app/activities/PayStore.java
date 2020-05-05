@@ -20,5 +20,5 @@ public class PayStore extends AppCompatActivity {
         startActivity(new Intent(this, HomeActivity.class));
     }
 
-
+    // Gerado apk
 }
